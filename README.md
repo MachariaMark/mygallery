@@ -70,4 +70,3 @@ For feedback contact me through;
 
 ### License
 [MITlicense](LICENSE) 2021 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license/MIT) 2021

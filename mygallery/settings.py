@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mygallery',
-        'USER': 'moringa',
+        'USER': 'marknuchirimacharia',
         'PASSWORD': 'p@$$w0rd',
     }
 }

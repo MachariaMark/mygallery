@@ -24,7 +24,6 @@ class LocationTestClass(TestCase):
     '''
     self.assertTrue(isinstance(self.new_location, Location))
 
-
   # Testing save method
   def test_save_method(self):
     '''
@@ -50,7 +49,6 @@ class LocationTestClass(TestCase):
     mombasa.save_location()
     locations = Location.objects.all()
     self.assertTrue(len(locations), 2)
-
 
 class ImageTestClass(TestCase):
   '''
@@ -92,7 +90,6 @@ class ImageTestClass(TestCase):
 
   def test_filter_by_location(self):
     pass
-
 
 class categoryTestClass(TestCase):
   '''

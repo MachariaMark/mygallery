@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
-# import django_heroku
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'x+ln!=#v=$o8tyyhx8$zb2=@f$@bqh0zj3=4vn8_amfb!7cnr-'
+SECRET_KEY = '78yh=^7401$o6%s=2t^m2a3*o+l^hx&2017jjhnvnsf_1uk4xj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

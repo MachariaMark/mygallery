@@ -3,7 +3,7 @@
 
 ## Description
 A personal gallery application that displays my photos for all to see. You can visit the live site on 
-
+https://offgallery.herokuapp.com/
 ## Features
 As a user of the web application you will be able to:
 

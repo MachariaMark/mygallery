@@ -9,6 +9,16 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 import django_heroku
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
+# adding config
+cloudinary.config( 
+  cloud_name = "djnyqzrog", 
+  api_key = "947668157677945", 
+  api_secret = "-B1OVsCw85OscEt84Uutb8sWhEU" 
+)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'photos',
     'bootstrap3',
+    'cloudinary'
 ]
 
 MIDDLEWARE = [
